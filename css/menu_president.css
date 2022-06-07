@@ -1,0 +1,286 @@
+.body{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: auto;
+    height: auto;
+    background-image: url(img/president.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    z-index: -1;
+}
+
+span{
+    margin:auto;
+}
+
+.btnEliminar {
+    min-width: 400px;
+    height: 50px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #ef233c;
+    box-shadow: 0 5px #d90429;
+    margin-top: 30px;
+    }
+.btnEliminar:hover {
+    box-shadow: 0 3px #d90429;
+    top: 1px;
+    }
+.btnEliminar:active {
+    box-shadow: 0 0 #d90429;
+    top: 5px;
+    }
+
+.btnModificar {
+    min-width: 400px;
+    height: 50px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #3a86ff;
+    box-shadow: 0 5px #4433ff;
+    margin-top: 30px;
+    }
+.btnModificar:hover {
+    box-shadow: 0 3px #4433ff;
+    top: 1px;
+}
+.btnModificar:active {
+    box-shadow: 0 0 #4433ff;
+    top: 5px;
+}
+.btnBuscar {
+    min-width: 400px;
+    height: 50px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #349915;
+    box-shadow: 0 5px #32770e;
+    margin-top: 30px;
+    }
+.btnBuscar:hover {
+    box-shadow: 0 3px #32770e;
+    top: 1px;
+    }
+.btnBuscar:active {
+    box-shadow: 0 0 #32770e;
+    top: 5px;
+    }
+.btnMenu {
+    min-width: 400px;
+    height: 50px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #343a40;
+    box-shadow: 0 5px #212529;
+    margin-top: 30px;
+    }
+.btnMenu:hover {
+    box-shadow: 0 3px #212529;
+    top: 1px;
+    }
+.btnMenu:active {
+    box-shadow: 0 0 #212529;
+    top: 5px;
+    }
+.btnInsertar {
+    min-width: 400px;
+    height: 50px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #ffb300;
+    box-shadow: 0 5px #ed8500;
+    margin-top: 30px;
+    }
+.btnInsertar:hover {
+    box-shadow: 0 3px #ed8500;
+    top: 1px;
+    }
+.btnInsertar:active {
+    box-shadow: 0 0 #ed8500;
+    top: 5px;
+    }
+.btnAtras {
+    min-width: 400px;
+    height: 50px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #A34DFF;
+    box-shadow: 0 5px #7538B6;
+    margin-top: 30px;
+    }
+.btnAtras:hover {
+    box-shadow: 0 3px #7538B6;
+    top: 1px;
+    }
+.btnAtras:active {
+    box-shadow: 0 0 #7538B6;
+    top: 5px;
+    }
+
+.btnDeptm {
+    min-width: 400px;
+    height: 50px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #AFADAC;
+    box-shadow: 0 5px #6B6B6B;
+    margin-top: 30px;
+    }
+.btnDeptm:hover {
+    box-shadow: 0 3px #6B6B6B;
+    top: 1px;
+    }
+.btnDeptm:active {
+    box-shadow: 0 0 #6B6B6B;
+    top: 5px;
+    }
+.btnLog {
+    min-width: 400px;
+    height: 50px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #C2732D;
+    box-shadow: 0 5px #8D5320;
+    margin-top: 30px;
+    }
+.btnLog:hover {
+    box-shadow: 0 3px #8D5320;
+    top: 1px;
+    }
+.btnLog:active {
+    box-shadow: 0 0 #8D5320;
+    top: 5px;
+    }
+
+.btnMenu {
+    min-width: 400px;
+    height: 50px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #343a40;
+    box-shadow: 0 5px #212529;
+    margin-top: 30px;
+    }
+.btnMenu:hover {
+    box-shadow: 0 3px #212529;
+    top: 1px;
+    }
+.btnMenu:active {
+    box-shadow: 0 0 #212529;
+    top: 5px;
+    }
+.posicionBotones{
+    position: relative;
+    width:100px;
+    height:300px;
+    margin: auto;
+    left: -150px;
+    margin-top: 110px;
+}
+div.bienvenida{
+    border:1px solid #990000;
+    background-color:rgb(195,195,195,0.8);
+    color: #3271a4;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    top:60px;
+    width: 450px;
+    text-align:center;
+}
+div.seleccione{
+    border:1px solid #990000;
+    background-color:rgb(195,195,195,0.8);
+    color: #3271a4;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    top:90px;
+    width: 450px;
+    text-align:center;
+}
+input[type=button]{
+    font-size:20px;
+}

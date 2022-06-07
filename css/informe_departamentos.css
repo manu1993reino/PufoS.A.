@@ -1,0 +1,104 @@
+.body{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: auto;
+    height: auto;
+    background-image: url(img/informe.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    z-index: -1;
+}
+table {
+    position: relative;
+    background: #f5f5f5;
+    border-collapse: separate;
+    box-shadow: inset 0 1px 0 #fff;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: left;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 170px;
+
+}	
+
+th {
+    background-color: black;
+    border-left: 1px solid #555;
+    border-right: 1px solid #777;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #333;
+    box-shadow: inset 0 1px 0 #999;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    position: relative;
+    text-shadow: 0 1px 0 #000;	
+    text-align:center;
+}
+
+
+th:first-child {
+    border-left: 1px solid #777;	
+    box-shadow: inset 1px 1px 0 #999;
+}
+
+th:last-child {
+    box-shadow: inset -1px 1px 0 #999;
+}
+
+td {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #e8e8e8;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 10px 15px;
+    position: relative;
+    transition: all 300ms;
+}
+
+td:first-child {
+    box-shadow: inset 1px 0 0 #fff;
+}	
+
+td:last-child {
+    border-right: 1px solid #e8e8e8;
+    box-shadow: inset -1px 0 0 #fff;
+}	
+
+tr:nth-child(odd) td {
+    background: #f1f1f1;	
+}
+.btnMenu {
+    min-width: 110px;
+    height: 40px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #AFADAC;
+    box-shadow: 0 5px #6B6B6B;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    }
+.btnMenu:hover {
+    box-shadow: 0 3px #6B6B6B;
+    top: 1px;
+    }
+.btnMenu:active {
+    box-shadow: 0 0 #6B6B6B;
+    top: 5px;
+    }

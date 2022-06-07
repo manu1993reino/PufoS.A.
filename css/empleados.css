@@ -1,0 +1,335 @@
+input{
+    display: block; 
+    margin-bottom: 10px;
+}
+
+div.mensaje{
+    border:1px solid #990000;
+    background-color:rgb(195,195,195,0.8);
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+    margin:auto;
+    width: 450px;
+    text-align:center;
+}
+
+div.mensajeError{
+    border:1px solid #990000;
+    background-color:rgb(195,195,195,0.8);
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    margin:auto;
+    width: 450px;
+    text-align:center;
+}
+
+div.mensajeErrorInsert{
+    border:1px solid #990000;
+    background-color:rgb(195,195,195,0.8);
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    margin:auto;
+    position:relative;
+    top:850px;
+    width: 1100px;
+    text-align:center;
+
+}
+
+div.bienvenida{
+    border:1px solid #990000;
+    background-color:rgb(195,195,195,0.8);
+    color: #3271a4;
+    font-weight: bold;
+    font-size: 20px;
+    margin:auto;
+    position:relative;
+    top:120px;
+    width: 450px;
+    text-align:center;
+}
+
+form{
+    border:1px solid #990000;
+    background-color:rgb(195,195,195,0.8);
+    width:400px;
+    margin:auto;
+    margin-top:150px;
+    font-size:15px;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: Arial;
+    font-size: 12px;
+    color: white;
+    background-color:#cf756d;
+}
+
+.body{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: auto;
+    height: auto;
+    background-image: url(img/managers_empleados.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    z-index: -1;
+}
+
+input[type=submit]{
+    display: inline-block;
+    margin: 5px;
+}
+input[type=button]{
+    margin: 5px;}
+
+.btnEliminar {
+    min-width: 110px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #ef233c;
+    box-shadow: 0 5px #d90429;
+    }
+.btnEliminar:hover {
+    box-shadow: 0 3px #d90429;
+    top: 1px;
+    }
+.btnEliminar:active {
+    box-shadow: 0 0 #d90429;
+    top: 5px;
+    }
+
+.btnModificar {
+    min-width: 110px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #3a86ff;
+    box-shadow: 0 5px #4433ff;
+    }
+.btnModificar:hover {
+    box-shadow: 0 3px #4433ff;
+    top: 1px;
+}
+.btnModificar:active {
+    box-shadow: 0 0 #4433ff;
+    top: 5px;
+}
+.btnBuscar {
+    min-width: 110px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #349915;
+    box-shadow: 0 5px #32770e;
+    }
+.btnBuscar:hover {
+    box-shadow: 0 3px #32770e;
+    top: 1px;
+    }
+.btnBuscar:active {
+    box-shadow: 0 0 #32770e;
+    top: 5px;
+    }
+.btnAtras {
+    min-width: 110px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #343a40;
+    box-shadow: 0 5px #212529;
+    }
+.btnAtras:hover {
+    box-shadow: 0 3px #212529;
+    top: 1px;
+    }
+.btnAtras:active {
+    box-shadow: 0 0 #212529;
+    top: 5px;
+    }
+.btnInsertar {
+    min-width: 110px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #ffb300;
+    box-shadow: 0 5px #ed8500;
+    }
+.btnInsertar:hover {
+    box-shadow: 0 3px #ed8500;
+    top: 1px;
+    }
+.btnInsertar:active {
+    box-shadow: 0 0 #ed8500;
+    top: 5px;
+    }
+input[type=date]{
+    width:165px;
+}
+.btnTabla {
+    min-width: 110px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #AFADAC;
+    box-shadow: 0 5px #6B6B6B;
+    margin-top: 30px;
+    }
+.btnTabla:hover {
+    box-shadow: 0 3px #6B6B6B;
+    top: 1px;
+    }
+.btnTabla:active {
+    box-shadow: 0 0 #6B6B6B;
+    top: 5px;
+    }
+.btnMenu {
+    min-width: 110px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #343a40;
+    box-shadow: 0 5px #212529;
+    }
+.btnMenu:hover {
+    box-shadow: 0 3px #212529;
+    top: 1px;
+    }
+.btnMenu:active {
+    box-shadow: 0 0 #212529;
+    top: 5px;
+    }
+table{
+    color:black;
+}
+
+table {
+    background: #f5f5f5;
+    border-collapse: separate;
+    box-shadow: inset 0 1px 0 #fff;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: left;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}	
+
+th {
+    background-color: black;
+    border-left: 1px solid #555;
+    border-right: 1px solid #777;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #333;
+    box-shadow: inset 0 1px 0 #999;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    position: relative;
+    text-shadow: 0 1px 0 #000;	
+}
+
+
+th:first-child {
+    border-left: 1px solid #777;	
+    box-shadow: inset 1px 1px 0 #999;
+}
+
+th:last-child {
+    box-shadow: inset -1px 1px 0 #999;
+}
+
+td {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #e8e8e8;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 10px 15px;
+    position: relative;
+    transition: all 300ms;
+}
+
+td:first-child {
+    box-shadow: inset 1px 0 0 #fff;
+}	
+
+td:last-child {
+    border-right: 1px solid #e8e8e8;
+    box-shadow: inset -1px 0 0 #fff;
+}	
+
+tr:nth-child(odd) td {
+    background: #f1f1f1;	
+}
